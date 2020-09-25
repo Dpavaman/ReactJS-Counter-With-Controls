@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import CountUp from './Components/CountUp'
+import Count from './Components/Count'
 
 
 
@@ -12,8 +12,7 @@ class App extends React.Component{
   render(){
     return (
       <div className="App">
-  
-      <CountUp />
+      <Count />
     </div>
     )
   }
